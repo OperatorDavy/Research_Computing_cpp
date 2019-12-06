@@ -1,0 +1,3 @@
+/Users/Davy/Desktop/15006877/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/Davy/Desktop/15006877/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/Davy/Desktop/15006877/cmake-build-debug/CMakeFiles/15006877.dir

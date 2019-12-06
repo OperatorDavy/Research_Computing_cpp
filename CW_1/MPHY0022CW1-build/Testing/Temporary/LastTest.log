@@ -1,0 +1,39 @@
+Start testing: Mar 12 23:35 GMT
+----------------------------------------------------------
+1/2 Testing: Example
+1/2 Test: Example
+Command: "/Users/Davy/Desktop/15006877/MPHY0022CW1-build/bin/mphyBasicTest"
+Directory: /Users/Davy/Desktop/15006877/MPHY0022CW1-build/Testing
+"Example" start time: Mar 12 23:35 GMT
+Output:
+----------------------------------------------------------
+===============================================================================
+All tests passed (2 assertions in 2 test cases)
+
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Example" end time: Mar 12 23:35 GMT
+"Example" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: Concrete
+2/2 Test: Concrete
+Command: "/Users/Davy/Desktop/15006877/MPHY0022CW1-build/bin/ConcreteGetDataTests"
+Directory: /Users/Davy/Desktop/15006877/MPHY0022CW1-build/Testing
+"Concrete" start time: Mar 12 23:35 GMT
+Output:
+----------------------------------------------------------
+===============================================================================
+All tests passed (22 assertions in 4 test cases)
+
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"Concrete" end time: Mar 12 23:35 GMT
+"Concrete" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 12 23:35 GMT

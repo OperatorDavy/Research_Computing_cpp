@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Davy/Desktop/15006877/MPHY0022CW1/Code/3rdParty/Eigen-3.2.2.1/demos/mix_eigen_and_c/binary_library.h
+
+/Users/Davy/Desktop/15006877/MPHY0022CW1/Code/3rdParty/Eigen-3.2.2.1/demos/mix_eigen_and_c/example.c
+binary_library.h
+/Users/Davy/Desktop/15006877/MPHY0022CW1/Code/3rdParty/Eigen-3.2.2.1/demos/mix_eigen_and_c/binary_library.h
+stdio.h
+/Users/Davy/Desktop/15006877/MPHY0022CW1/Code/3rdParty/Eigen-3.2.2.1/demos/mix_eigen_and_c/stdio.h
+

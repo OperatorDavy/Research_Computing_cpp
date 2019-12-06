@@ -1,0 +1,944 @@
+The system is: Darwin - 18.2.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is AppleClang, found in "/Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/3.13.4/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is AppleClang, found in "/Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/3.13.4/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7e27f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7e27f.dir/build.make CMakeFiles/cmTC_7e27f.dir/build
+Building C object CMakeFiles/cmTC_7e27f.dir/testCCompiler.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_7e27f.dir/testCCompiler.c.o   -c /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_7e27f
+/Users/Davy/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e27f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7e27f.dir/testCCompiler.c.o  -o cmTC_7e27f 
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9cd33/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9cd33.dir/build.make CMakeFiles/cmTC_9cd33.dir/build
+Building C object CMakeFiles/cmTC_9cd33.dir/CMakeCCompilerABI.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_9cd33.dir/CMakeCCompilerABI.c.o   -c /Users/Davy/anaconda3/share/cmake-3.13/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_9cd33
+/Users/Davy/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9cd33.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_9cd33.dir/CMakeCCompilerABI.c.o  -o cmTC_9cd33 
+Apple LLVM version 10.0.0 (clang-1000.11.45.5)
+Target: x86_64-apple-darwin18.2.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -o cmTC_9cd33 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_9cd33.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-409.12
+BUILD 17:47:51 Sep 25 2018
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em arm64e arm64_32
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_9cd33/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9cd33.dir/build.make CMakeFiles/cmTC_9cd33.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_9cd33.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_9cd33.dir/CMakeCCompilerABI.c.o   -c /Users/Davy/anaconda3/share/cmake-3.13/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_9cd33]
+  ignore line: [/Users/Davy/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9cd33.dir/link.txt --verbose=1]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_9cd33.dir/CMakeCCompilerABI.c.o  -o cmTC_9cd33 ]
+  ignore line: [Apple LLVM version 10.0.0 (clang-1000.11.45.5)]
+  ignore line: [Target: x86_64-apple-darwin18.2.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -o cmTC_9cd33 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_9cd33.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.14.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_9cd33] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_9cd33.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d363d/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d363d.dir/build.make CMakeFiles/cmTC_d363d.dir/build
+Building C object CMakeFiles/cmTC_d363d.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=c11 -o CMakeFiles/cmTC_d363d.dir/feature_tests.c.o   -c /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_d363d
+/Users/Davy/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d363d.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d363d.dir/feature_tests.c.o  -o cmTC_d363d 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aeb47/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_aeb47.dir/build.make CMakeFiles/cmTC_aeb47.dir/build
+Building C object CMakeFiles/cmTC_aeb47.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=c99 -o CMakeFiles/cmTC_aeb47.dir/feature_tests.c.o   -c /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_aeb47
+/Users/Davy/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aeb47.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_aeb47.dir/feature_tests.c.o  -o cmTC_aeb47 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_33ab6/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_33ab6.dir/build.make CMakeFiles/cmTC_33ab6.dir/build
+Building C object CMakeFiles/cmTC_33ab6.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=c90 -o CMakeFiles/cmTC_33ab6.dir/feature_tests.c.o   -c /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_33ab6
+/Users/Davy/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33ab6.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_33ab6.dir/feature_tests.c.o  -o cmTC_33ab6 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_927ab/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_927ab.dir/build.make CMakeFiles/cmTC_927ab.dir/build
+Building CXX object CMakeFiles/cmTC_927ab.dir/testCXXCompiler.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_927ab.dir/testCXXCompiler.cxx.o -c /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_927ab
+/Users/Davy/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_927ab.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_927ab.dir/testCXXCompiler.cxx.o  -o cmTC_927ab 
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cba95/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_cba95.dir/build.make CMakeFiles/cmTC_cba95.dir/build
+Building CXX object CMakeFiles/cmTC_cba95.dir/CMakeCXXCompilerABI.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_cba95.dir/CMakeCXXCompilerABI.cpp.o -c /Users/Davy/anaconda3/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_cba95
+/Users/Davy/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cba95.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_cba95.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_cba95 
+Apple LLVM version 10.0.0 (clang-1000.11.45.5)
+Target: x86_64-apple-darwin18.2.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -o cmTC_cba95 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_cba95.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-409.12
+BUILD 17:47:51 Sep 25 2018
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em arm64e arm64_32
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_cba95/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_cba95.dir/build.make CMakeFiles/cmTC_cba95.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_cba95.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_cba95.dir/CMakeCXXCompilerABI.cpp.o -c /Users/Davy/anaconda3/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_cba95]
+  ignore line: [/Users/Davy/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cba95.dir/link.txt --verbose=1]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_cba95.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_cba95 ]
+  ignore line: [Apple LLVM version 10.0.0 (clang-1000.11.45.5)]
+  ignore line: [Target: x86_64-apple-darwin18.2.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -o cmTC_cba95 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_cba95.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.14.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_cba95] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_cba95.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+  implicit libs: [c++]
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_10dbc/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_10dbc.dir/build.make CMakeFiles/cmTC_10dbc.dir/build
+Building CXX object CMakeFiles/cmTC_10dbc.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=c++1z -o CMakeFiles/cmTC_10dbc.dir/feature_tests.cxx.o -c /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_10dbc
+/Users/Davy/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10dbc.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_10dbc.dir/feature_tests.cxx.o  -o cmTC_10dbc 
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fb33f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_fb33f.dir/build.make CMakeFiles/cmTC_fb33f.dir/build
+Building CXX object CMakeFiles/cmTC_fb33f.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=c++14 -o CMakeFiles/cmTC_fb33f.dir/feature_tests.cxx.o -c /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_fb33f
+/Users/Davy/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb33f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_fb33f.dir/feature_tests.cxx.o  -o cmTC_fb33f 
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c6a19/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c6a19.dir/build.make CMakeFiles/cmTC_c6a19.dir/build
+Building CXX object CMakeFiles/cmTC_c6a19.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=c++11 -o CMakeFiles/cmTC_c6a19.dir/feature_tests.cxx.o -c /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c6a19
+/Users/Davy/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6a19.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c6a19.dir/feature_tests.cxx.o  -o cmTC_c6a19 
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e1091/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e1091.dir/build.make CMakeFiles/cmTC_e1091.dir/build
+Building CXX object CMakeFiles/cmTC_e1091.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=c++98 -o CMakeFiles/cmTC_e1091.dir/feature_tests.cxx.o -c /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e1091
+/Users/Davy/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1091.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e1091.dir/feature_tests.cxx.o  -o cmTC_e1091 
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c11 succeeded with the following output:
+Change Dir: /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_01b5c/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_01b5c.dir/build.make CMakeFiles/cmTC_01b5c.dir/build
+Building CXX object CMakeFiles/cmTC_01b5c.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -DHAS_FLAG_-std=c11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=c++11 -o CMakeFiles/cmTC_01b5c.dir/src.cxx.o -c /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp/src.cxx
+In file included from <built-in>:391:
+<command line>:1:18: warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+#define HAS_FLAG_-std c11
+                 ^
+1 warning generated.
+Linking CXX executable cmTC_01b5c
+/Users/Davy/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01b5c.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -DHAS_FLAG_-std=c11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_01b5c.dir/src.cxx.o  -o cmTC_01b5c 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-Wno-deprecated-declarations succeeded with the following output:
+Change Dir: /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c2537/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c2537.dir/build.make CMakeFiles/cmTC_c2537.dir/build
+Building CXX object CMakeFiles/cmTC_c2537.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -DHAS_FLAG_-Wno-deprecated-declarations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -Wno-deprecated-declarations -o CMakeFiles/cmTC_c2537.dir/src.cxx.o -c /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp/src.cxx
+In file included from <built-in>:373:
+<command line>:1:18: warning: whitespace recommended after macro name
+#define HAS_FLAG_-Wno-deprecated-declarations 1
+                 ^
+1 warning generated.
+Linking CXX executable cmTC_c2537
+/Users/Davy/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2537.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -DHAS_FLAG_-Wno-deprecated-declarations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c2537.dir/src.cxx.o  -o cmTC_c2537 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c11 succeeded with the following output:
+Change Dir: /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b5b03/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b5b03.dir/build.make CMakeFiles/cmTC_b5b03.dir/build
+Building CXX object CMakeFiles/cmTC_b5b03.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wno-deprecated-declarations -DHAS_FLAG_-std=c11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=c++11 -o CMakeFiles/cmTC_b5b03.dir/src.cxx.o -c /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp/src.cxx
+In file included from <built-in>:391:
+<command line>:1:18: warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+#define HAS_FLAG_-std c11
+                 ^
+1 warning generated.
+Linking CXX executable cmTC_b5b03
+/Users/Davy/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5b03.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wno-deprecated-declarations -DHAS_FLAG_-std=c11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b5b03.dir/src.cxx.o  -o cmTC_b5b03 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c11 succeeded with the following output:
+Change Dir: /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_904b1/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_904b1.dir/build.make CMakeFiles/cmTC_904b1.dir/build
+Building CXX object CMakeFiles/cmTC_904b1.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wno-deprecated-declarations  -Wno-deprecated-declarations -DHAS_FLAG_-std=c11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=c++11 -o CMakeFiles/cmTC_904b1.dir/src.cxx.o -c /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp/src.cxx
+In file included from <built-in>:391:
+<command line>:1:18: warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+#define HAS_FLAG_-std c11
+                 ^
+1 warning generated.
+Linking CXX executable cmTC_904b1
+/Users/Davy/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_904b1.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wno-deprecated-declarations  -Wno-deprecated-declarations -DHAS_FLAG_-std=c11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_904b1.dir/src.cxx.o  -o cmTC_904b1 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c11 succeeded with the following output:
+Change Dir: /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_85e37/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_85e37.dir/build.make CMakeFiles/cmTC_85e37.dir/build
+Building CXX object CMakeFiles/cmTC_85e37.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations -DHAS_FLAG_-std=c11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=c++11 -o CMakeFiles/cmTC_85e37.dir/src.cxx.o -c /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp/src.cxx
+In file included from <built-in>:391:
+<command line>:1:18: warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+#define HAS_FLAG_-std c11
+                 ^
+1 warning generated.
+Linking CXX executable cmTC_85e37
+/Users/Davy/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85e37.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations -DHAS_FLAG_-std=c11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_85e37.dir/src.cxx.o  -o cmTC_85e37 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c11 succeeded with the following output:
+Change Dir: /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_34a2f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_34a2f.dir/build.make CMakeFiles/cmTC_34a2f.dir/build
+Building CXX object CMakeFiles/cmTC_34a2f.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations -DHAS_FLAG_-std=c11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=c++11 -o CMakeFiles/cmTC_34a2f.dir/src.cxx.o -c /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp/src.cxx
+In file included from <built-in>:391:
+<command line>:1:18: warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+#define HAS_FLAG_-std c11
+                 ^
+1 warning generated.
+Linking CXX executable cmTC_34a2f
+/Users/Davy/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34a2f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations -DHAS_FLAG_-std=c11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_34a2f.dir/src.cxx.o  -o cmTC_34a2f 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c11 succeeded with the following output:
+Change Dir: /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9d8e1/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9d8e1.dir/build.make CMakeFiles/cmTC_9d8e1.dir/build
+Building CXX object CMakeFiles/cmTC_9d8e1.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations -DHAS_FLAG_-std=c11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=c++11 -o CMakeFiles/cmTC_9d8e1.dir/src.cxx.o -c /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp/src.cxx
+In file included from <built-in>:391:
+<command line>:1:18: warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+#define HAS_FLAG_-std c11
+                 ^
+1 warning generated.
+Linking CXX executable cmTC_9d8e1
+/Users/Davy/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d8e1.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations -DHAS_FLAG_-std=c11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9d8e1.dir/src.cxx.o  -o cmTC_9d8e1 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c11 succeeded with the following output:
+Change Dir: /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bf3e6/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_bf3e6.dir/build.make CMakeFiles/cmTC_bf3e6.dir/build
+Building CXX object CMakeFiles/cmTC_bf3e6.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations -DHAS_FLAG_-std=c11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=c++11 -o CMakeFiles/cmTC_bf3e6.dir/src.cxx.o -c /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp/src.cxx
+In file included from <built-in>:391:
+<command line>:1:18: warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+#define HAS_FLAG_-std c11
+                 ^
+1 warning generated.
+Linking CXX executable cmTC_bf3e6
+/Users/Davy/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf3e6.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations -DHAS_FLAG_-std=c11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_bf3e6.dir/src.cxx.o  -o cmTC_bf3e6 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c11 succeeded with the following output:
+Change Dir: /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fc50e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_fc50e.dir/build.make CMakeFiles/cmTC_fc50e.dir/build
+Building CXX object CMakeFiles/cmTC_fc50e.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations -DHAS_FLAG_-std=c11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=c++11 -o CMakeFiles/cmTC_fc50e.dir/src.cxx.o -c /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp/src.cxx
+In file included from <built-in>:391:
+<command line>:1:18: warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+#define HAS_FLAG_-std c11
+                 ^
+1 warning generated.
+Linking CXX executable cmTC_fc50e
+/Users/Davy/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc50e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations -DHAS_FLAG_-std=c11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_fc50e.dir/src.cxx.o  -o cmTC_fc50e 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c11 succeeded with the following output:
+Change Dir: /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_31c5e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_31c5e.dir/build.make CMakeFiles/cmTC_31c5e.dir/build
+Building CXX object CMakeFiles/cmTC_31c5e.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations -DHAS_FLAG_-std=c11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=c++11 -o CMakeFiles/cmTC_31c5e.dir/src.cxx.o -c /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp/src.cxx
+In file included from <built-in>:391:
+<command line>:1:18: warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+#define HAS_FLAG_-std c11
+                 ^
+1 warning generated.
+Linking CXX executable cmTC_31c5e
+/Users/Davy/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31c5e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations -DHAS_FLAG_-std=c11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_31c5e.dir/src.cxx.o  -o cmTC_31c5e 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c11 succeeded with the following output:
+Change Dir: /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4f3a9/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_4f3a9.dir/build.make CMakeFiles/cmTC_4f3a9.dir/build
+Building CXX object CMakeFiles/cmTC_4f3a9.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations -DHAS_FLAG_-std=c11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=c++11 -o CMakeFiles/cmTC_4f3a9.dir/src.cxx.o -c /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp/src.cxx
+In file included from <built-in>:391:
+<command line>:1:18: warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+#define HAS_FLAG_-std c11
+                 ^
+1 warning generated.
+Linking CXX executable cmTC_4f3a9
+/Users/Davy/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f3a9.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations -DHAS_FLAG_-std=c11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4f3a9.dir/src.cxx.o  -o cmTC_4f3a9 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c11 succeeded with the following output:
+Change Dir: /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_847d7/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_847d7.dir/build.make CMakeFiles/cmTC_847d7.dir/build
+Building CXX object CMakeFiles/cmTC_847d7.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations -DHAS_FLAG_-std=c11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=c++11 -o CMakeFiles/cmTC_847d7.dir/src.cxx.o -c /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp/src.cxx
+In file included from <built-in>:391:
+<command line>:1:18: warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+#define HAS_FLAG_-std c11
+                 ^
+1 warning generated.
+Linking CXX executable cmTC_847d7
+/Users/Davy/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_847d7.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations -DHAS_FLAG_-std=c11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_847d7.dir/src.cxx.o  -o cmTC_847d7 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c11 succeeded with the following output:
+Change Dir: /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_66ab9/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_66ab9.dir/build.make CMakeFiles/cmTC_66ab9.dir/build
+Building CXX object CMakeFiles/cmTC_66ab9.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations -DHAS_FLAG_-std=c11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=c++11 -o CMakeFiles/cmTC_66ab9.dir/src.cxx.o -c /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp/src.cxx
+In file included from <built-in>:391:
+<command line>:1:18: warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+#define HAS_FLAG_-std c11
+                 ^
+1 warning generated.
+Linking CXX executable cmTC_66ab9
+/Users/Davy/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66ab9.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations -DHAS_FLAG_-std=c11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_66ab9.dir/src.cxx.o  -o cmTC_66ab9 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c11 succeeded with the following output:
+Change Dir: /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2de0c/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2de0c.dir/build.make CMakeFiles/cmTC_2de0c.dir/build
+Building CXX object CMakeFiles/cmTC_2de0c.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations -DHAS_FLAG_-std=c11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=c++11 -o CMakeFiles/cmTC_2de0c.dir/src.cxx.o -c /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp/src.cxx
+In file included from <built-in>:391:
+<command line>:1:18: warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+#define HAS_FLAG_-std c11
+                 ^
+1 warning generated.
+Linking CXX executable cmTC_2de0c
+/Users/Davy/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2de0c.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations -DHAS_FLAG_-std=c11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2de0c.dir/src.cxx.o  -o cmTC_2de0c 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c11 succeeded with the following output:
+Change Dir: /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e2856/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e2856.dir/build.make CMakeFiles/cmTC_e2856.dir/build
+Building CXX object CMakeFiles/cmTC_e2856.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations -DHAS_FLAG_-std=c11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=c++11 -o CMakeFiles/cmTC_e2856.dir/src.cxx.o -c /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp/src.cxx
+In file included from <built-in>:391:
+<command line>:1:18: warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+#define HAS_FLAG_-std c11
+                 ^
+1 warning generated.
+Linking CXX executable cmTC_e2856
+/Users/Davy/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2856.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations -DHAS_FLAG_-std=c11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e2856.dir/src.cxx.o  -o cmTC_e2856 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c11 succeeded with the following output:
+Change Dir: /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bc386/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_bc386.dir/build.make CMakeFiles/cmTC_bc386.dir/build
+Building CXX object CMakeFiles/cmTC_bc386.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations -DHAS_FLAG_-std=c11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=c++11 -o CMakeFiles/cmTC_bc386.dir/src.cxx.o -c /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp/src.cxx
+In file included from <built-in>:391:
+<command line>:1:18: warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+#define HAS_FLAG_-std c11
+                 ^
+1 warning generated.
+Linking CXX executable cmTC_bc386
+/Users/Davy/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc386.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations -DHAS_FLAG_-std=c11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_bc386.dir/src.cxx.o  -o cmTC_bc386 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c11 succeeded with the following output:
+Change Dir: /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b335e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b335e.dir/build.make CMakeFiles/cmTC_b335e.dir/build
+Building CXX object CMakeFiles/cmTC_b335e.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations -DHAS_FLAG_-std=c11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=c++11 -o CMakeFiles/cmTC_b335e.dir/src.cxx.o -c /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp/src.cxx
+In file included from <built-in>:391:
+<command line>:1:18: warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+#define HAS_FLAG_-std c11
+                 ^
+1 warning generated.
+Linking CXX executable cmTC_b335e
+/Users/Davy/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b335e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations -DHAS_FLAG_-std=c11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b335e.dir/src.cxx.o  -o cmTC_b335e 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c11 succeeded with the following output:
+Change Dir: /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_45799/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_45799.dir/build.make CMakeFiles/cmTC_45799.dir/build
+Building CXX object CMakeFiles/cmTC_45799.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations -DHAS_FLAG_-std=c11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=c++11 -o CMakeFiles/cmTC_45799.dir/src.cxx.o -c /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp/src.cxx
+In file included from <built-in>:391:
+<command line>:1:18: warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+#define HAS_FLAG_-std c11
+                 ^
+1 warning generated.
+Linking CXX executable cmTC_45799
+/Users/Davy/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45799.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations -DHAS_FLAG_-std=c11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_45799.dir/src.cxx.o  -o cmTC_45799 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c11 succeeded with the following output:
+Change Dir: /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_66f06/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_66f06.dir/build.make CMakeFiles/cmTC_66f06.dir/build
+Building CXX object CMakeFiles/cmTC_66f06.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations -DHAS_FLAG_-std=c11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=c++11 -o CMakeFiles/cmTC_66f06.dir/src.cxx.o -c /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp/src.cxx
+In file included from <built-in>:391:
+<command line>:1:18: warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+#define HAS_FLAG_-std c11
+                 ^
+1 warning generated.
+Linking CXX executable cmTC_66f06
+/Users/Davy/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66f06.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations -DHAS_FLAG_-std=c11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_66f06.dir/src.cxx.o  -o cmTC_66f06 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c11 succeeded with the following output:
+Change Dir: /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6d340/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6d340.dir/build.make CMakeFiles/cmTC_6d340.dir/build
+Building CXX object CMakeFiles/cmTC_6d340.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations -DHAS_FLAG_-std=c11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=c++11 -o CMakeFiles/cmTC_6d340.dir/src.cxx.o -c /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp/src.cxx
+In file included from <built-in>:391:
+<command line>:1:18: warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+#define HAS_FLAG_-std c11
+                 ^
+1 warning generated.
+Linking CXX executable cmTC_6d340
+/Users/Davy/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d340.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations -DHAS_FLAG_-std=c11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6d340.dir/src.cxx.o  -o cmTC_6d340 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c11 succeeded with the following output:
+Change Dir: /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e8fd7/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e8fd7.dir/build.make CMakeFiles/cmTC_e8fd7.dir/build
+Building CXX object CMakeFiles/cmTC_e8fd7.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations -DHAS_FLAG_-std=c11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=c++11 -o CMakeFiles/cmTC_e8fd7.dir/src.cxx.o -c /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp/src.cxx
+In file included from <built-in>:391:
+<command line>:1:18: warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+#define HAS_FLAG_-std c11
+                 ^
+1 warning generated.
+Linking CXX executable cmTC_e8fd7
+/Users/Davy/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8fd7.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations -DHAS_FLAG_-std=c11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e8fd7.dir/src.cxx.o  -o cmTC_e8fd7 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c11 succeeded with the following output:
+Change Dir: /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cb2ab/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_cb2ab.dir/build.make CMakeFiles/cmTC_cb2ab.dir/build
+Building CXX object CMakeFiles/cmTC_cb2ab.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations -DHAS_FLAG_-std=c11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=c++11 -o CMakeFiles/cmTC_cb2ab.dir/src.cxx.o -c /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp/src.cxx
+In file included from <built-in>:391:
+<command line>:1:18: warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+#define HAS_FLAG_-std c11
+                 ^
+1 warning generated.
+Linking CXX executable cmTC_cb2ab
+/Users/Davy/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb2ab.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations -DHAS_FLAG_-std=c11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_cb2ab.dir/src.cxx.o  -o cmTC_cb2ab 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLAG_-std=c11 succeeded with the following output:
+Change Dir: /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bc65f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_bc65f.dir/build.make CMakeFiles/cmTC_bc65f.dir/build
+Building CXX object CMakeFiles/cmTC_bc65f.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations -DHAS_FLAG_-std=c11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=c++11 -o CMakeFiles/cmTC_bc65f.dir/src.cxx.o -c /Users/Davy/Desktop/15006877/MPHY0022CW1-build/CMakeFiles/CMakeTmp/src.cxx
+In file included from <built-in>:391:
+<command line>:1:18: warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+#define HAS_FLAG_-std c11
+                 ^
+1 warning generated.
+Linking CXX executable cmTC_bc65f
+/Users/Davy/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc65f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations  -Wno-deprecated-declarations -DHAS_FLAG_-std=c11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_bc65f.dir/src.cxx.o  -o cmTC_bc65f 
+
+Source file was:
+int main() { return 0; }
